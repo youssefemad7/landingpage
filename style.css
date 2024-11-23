@@ -1,0 +1,903 @@
+/* General Reset */
+body,
+h1,
+h2,
+p,
+a,
+ul,
+li,
+blockquote,
+footer {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+  background: #0b9586;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header .nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .contact-info {
+  font-size: 0.9rem;
+}
+.header .contact-info p {
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+/* Hero Section */
+.hero {
+  background: url("Images/solar-panels-meadow\ 1.png") no-repeat center/cover;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+  height: 550px;
+}
+
+.hero-content div {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  /* margin-top: 50%; */
+}
+.custom-line {
+  position: sticky;
+  width: 220px; /* Full width of the parent container */
+  height: 5px; /* Thickness of the line */
+  background: linear-gradient(
+    to right,
+    #fff 50%,
+    #575757 50%
+  ); /* نصف أبيض ونصف رمادي */
+  margin: 10px 50px; /* Space above and below the line */
+  bottom: 1680.93px;
+  margin-bottom: 120px;
+}
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+  text-align: start;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: start;
+}
+
+.hero-buttons .btn {
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-buttons .btn.primary {
+  background: #3cab90;
+  color: #ffffff;
+  border-radius: 109px;
+}
+
+.hero-buttons .btn.secondary {
+  background: #ffbb1c;
+  color: #2a3334;
+  border-radius: 109px;
+}
+
+.hero-buttons .btn:hover {
+  opacity: 0.9;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-between; /* توزيع العناصر بين اليسار واليمين */
+  align-items: center;
+  padding: 80px 0 80px 120px;
+  width: 1300px;
+}
+
+.container {
+  flex: 1;
+  /* padding-right: 20px; */
+  padding-left: 120px;
+}
+
+.image-container {
+  flex-shrink: 0;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.features h2 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50.83px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.features p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.features span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.28px;
+  letter-spacing: 4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #84bd3a;
+}
+.features li {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  list-style-type: none; /* إلغاء النقاط */
+}
+
+/* Power Section */
+.Power {
+  background: url("Images/8116\ 1.png") no-repeat center/cover;
+  height: 505px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Power-content div {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  /* margin-top: 50%; */
+}
+.Power .Power-content {
+  padding-top: 10%;
+}
+
+.Power-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  color: #ffffff;
+}
+
+.Power-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: start;
+  color: #ffffff;
+}
+
+.Power-buttons .btn {
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  background: #ffbb1c;
+  color: #2a3334;
+  border-radius: 109px;
+}
+
+/* Solar Kits Section */
+.solar-kits {
+  padding: 2rem 2rem;
+  text-align: center;
+  width: Fixed (1, 140px) px;
+  height: Hug (454px) px;
+  gap: 32px;
+  opacity: 0px;
+  background-color: whitesmoke;
+}
+.solar-kits .container {
+  margin-left: 20px;
+}
+.solar-kits h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.solar-kits .kits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: Fixed (1, 140px) px;
+  height: Hug (454px) px;
+}
+
+.kit {
+  flex: 1;
+  margin: 1rem;
+  text-align: start;
+  background-color: white;
+}
+.kitcontent {
+  padding: 0px 5px 25px 30px;
+}
+
+.kit img {
+  width: 100%;
+  /* max-width: 300px; */
+  margin-bottom: 1rem;
+}
+
+.kit h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.kit a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3cab90;
+}
+.kit a span {
+  padding-top: 500px;
+  font-size: 25px;
+}
+/* Repair Section */
+.Repair {
+  position: relative;
+  background: url("Images/8116\ 1\ \(1\).png") no-repeat center/cover;
+  height: 505px;
+}
+
+.Repair .Repair-content {
+  padding-bottom: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 311px;
+  border-radius: 10px;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  background: #00000091;
+}
+
+.Repair-content h1 {
+  padding-top: 50px;
+  padding-right: 100px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50.83px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.Repair-content p {
+  padding-right: 100px;
+  font-size: 20px;
+  /* font-weight: 500; */
+  /* line-height: 28px; */
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+/* Energy Section */
+.Energy {
+  background: #ffbb1c0d;
+  padding-bottom: 50px;
+}
+.Energy .container {
+  padding: 50px 0 0 150px;
+}
+.Energy h2 {
+  padding-top: 50px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50.83px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Energy p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+/* Main Layout for Content */
+.Energy-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Left: Text, Right: Kits */
+  gap: 20px; /* Space between text and kits */
+  align-items: start; /* Align top */
+}
+
+/* Left Side (Text) */
+.Energy-description {
+  padding-right: 20px;
+}
+
+/* Right Side (Kits) */
+.Energy-kits {
+  width: 83%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for kits */
+  gap: 20px; /* Space between kits */
+}
+
+.Energy-kit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #3cab90;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  background: #3cab900d;
+}
+
+.Energy-kit img {
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.Energy-kitcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Energy-kitcontent a {
+  color: #3cab90;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Values Section */
+
+.Values {
+  padding: 2rem 2rem;
+  text-align: center;
+  width: Fixed (1, 140px) px;
+  height: Hug (454px) px;
+  gap: 32px;
+  opacity: 0px;
+  background-color: white;
+}
+.Values .container {
+  margin-left: 20px;
+}
+.Values h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Values .Values-kits {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: Fixed (1, 140px) px;
+  height: Hug (454px) px;
+}
+
+.Values-kit {
+  flex: 1;
+  margin: 1rem;
+  text-align: start;
+  background-color: white;
+  border: 1px solid #3cab90;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  background: #3cab900d;
+}
+.Values-kitcontent {
+  padding: 0px 5px 25px 30px;
+}
+
+.Values-kit img {
+  width: 100%;
+  /* max-width: 300px; */
+  margin-bottom: 1rem;
+}
+
+.Values-kit h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Values-kit a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3cab90;
+}
+.Values-kit a span {
+  padding-top: 500px;
+  font-size: 25px;
+}
+.Values i {
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  padding: 50px 0px 0px 50px;
+
+  color: #3cab90;
+}
+.secondValue {
+  margin-top: 150px;
+  display: flex;
+}
+.secondValue .container i {
+  padding-right: 100%;
+}
+
+.secondValue h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+  padding-left: 10%;
+}
+.secondValue .container p {
+  text-align: left;
+  padding-left: 10%;
+  width: 516px;
+  height: 144px;
+  gap: 0px;
+  opacity: 0px;
+}
+.secondValue h3 {
+  color: #3cab90;
+}
+.secondValue img {
+  width: 50px;
+  margin-top: 10%;
+}
+.secondValue image div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondValue .Values-kitcontent p {
+  font-size: 30px;
+  /* font-weight: 400;
+  line-height: 36px; */
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.info {
+  margin-top: 8%;
+}
+.info h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info h5 {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer Section */
+footer {
+  background: #283646;
+  color: #fff;
+  padding: 20px;
+  /* text-align: center; */
+  display: flex;
+  /* width: 100%; */
+  height: Hug (412px) px;
+  padding: 80px 150px 80px 150px;
+  gap: 54px;
+  opacity: 0px;
+}
+hr {
+  margin-right: 10%;
+  width: 92.5%;
+  color: #71777d;
+}
+
+.footer-section,
+.footer-sectionbottom {
+  display: flex;
+
+  /* margin: 0 20px; */
+  padding-right: 50px;
+}
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  margin: 10px 0;
+  padding-right: 50px;
+}
+.footer-sectionbottom p {
+  font-size: 13px;
+  margin: 10px 0;
+  padding-right: 30px;
+  color: #92989f;
+}
+.footer-sectionright {
+  margin-left: 400px;
+}
+/* From Uiverse.io by alexruix */
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 50%;
+}
+/* From Uiverse.io by Bodyhc */
+.search {
+  display: inline-block;
+  position: relative;
+  margin-left: 15%;
+}
+
+.search input[type="text"] {
+  width: 300px;
+  padding: 9px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #b3bdc7;
+  background-color: #262728;
+
+  color: white;
+}
+
+.search button[type="submit"] {
+  background: #ffbb1c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.9s ease;
+}
+
+/* Responsive Design */
+/* General styles for smaller screens (Mobile first approach) */
+@media screen and (max-width: 768px) {
+  /* Header */
+  .header .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .header .logo {
+    font-size: 1.2rem;
+  }
+  .header .nav a {
+    margin: 0.5rem 0.5rem;
+  }
+  .header .contact-info {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 400px;
+    padding: 2rem 0;
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .hero-content p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  /* Features Section */
+  .features {
+    flex-direction: column;
+    padding: 40px 10px;
+    text-align: center;
+  }
+  .features .container {
+    padding-left: 0;
+  }
+  .features .image-container {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .features img {
+    margin-right: 650px;
+  }
+
+  .Power .container {
+    padding-left: 0;
+  }
+  /* Solar Kits Section */
+  .solar-kits .kits {
+    flex-direction: column;
+    align-items: center;
+  }
+  .solar-kits .container h2,
+  p {
+    margin-right: 75px;
+  }
+  .kit {
+    /* width: 90%; */
+    margin-bottom: 20px;
+    margin-right: 150px;
+  }
+
+  /* Repair Section */
+  .Repair-content {
+    width: 100%;
+    text-align: center;
+  }
+  .Repair-content p {
+    position: absolute;
+    left: -65%;
+
+    width: 250%;
+    font-size: 13px;
+  }
+
+  /* Energy Section */
+  .Energy-content {
+    display: block;
+  }
+
+  /* Values Section */
+  .Values .Values-kits {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Values-kit {
+    width: 50%;
+  }
+  .Values {
+    /* width: 100%;
+    height: auto;
+    padding: 1rem; */
+    margin-right: 100px;
+  }
+
+  .Values .Values-kits {
+    flex-direction: column;
+    /* width: 100%; */
+  }
+
+  .Values-kit {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .secondValue h2 {
+    font-size: 32px;
+    padding-left: 5%;
+  }
+
+  .secondValue .container p {
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 20px 50px;
+  }
+  .footer-section {
+    display: flex;
+  }
+
+  .footer-sectionright {
+    margin-left: 0;
+  }
+
+  .search input[type="text"] {
+    display: none;
+  }
+
+  .search button[type="submit"] {
+    display: none;
+  }
+}
+
+/* Larger screens (Tablet and above) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Features Section */
+  .features {
+    margin: 0;
+    width: 50%;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+  .solar-kits .container h2,
+  p {
+    margin-right: 100px;
+  }
+
+  /* Repair Section */
+  .Repair-content p {
+    position: absolute;
+    left: -65%;
+
+    width: 250%;
+    font-size: 16px;
+  }
+
+  /* Energy Section */
+  .Energy-content {
+    display: flex;
+  }
+
+  .Energy-description,
+  .Energy-kits {
+    width: 50%;
+    padding-right: 11%;
+  }
+  .Values {
+    width: 50%;
+    padding: 1.5rem;
+    /* margin-right: 50px; */
+  }
+  .Values .container {
+    /* margin-right: 1150px; */
+  }
+
+  .Values .Values-kits {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .secondValue h2 {
+    font-size: 36px;
+    padding-left: 5%;
+  }
+
+  footer {
+    flex-direction: row;
+    padding: 20px 100px;
+  }
+
+  .search input[type="text"] {
+    width: 220px;
+  }
+}
+
+/* Desktop screens */
+@media screen and (min-width: 1024px) {
+  /* Hero Section */
+  .hero {
+    padding: 4rem 0;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  /* Features Section */
+  .features {
+    padding: 80px 100px;
+  }
+  .features .container {
+    padding-left: 120px;
+  }
+  .features .image-container {
+    padding-left: 20px;
+  }
+
+  /* Repair Section */
+  .Repair-content {
+    width: 50%;
+  }
+
+  /* Energy Section */
+  .Energy-content {
+    display: flex;
+    gap: 40px;
+  }
+  .Energy-description,
+  .Energy-kits {
+    width: 50%;
+  }
+}
+
+/* Responsive Design */
