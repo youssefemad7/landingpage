@@ -697,6 +697,7 @@ hr {
   .solar-kits {
     width: 95.5%;
   }
+
   .solar-kits .kits {
     width: 100%;
   }
@@ -786,8 +787,140 @@ hr {
 
 /* Larger screens (Tablet and above) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Header */
+  .header {
+    width: 106%;
+    /* margin-right: 500%; */
+  }
+  .header .contact-info {
+    width: 25%;
+    margin: 0;
+  }
+  .header .contact-info p {
+    width: 50%;
+    margin: 0;
+  }
+  /* Hero */
+  .hero {
+    width: 106%;
+  }
+  .hero div {
+    width: 80%;
+  }
+  /* Features */
+  .features {
+    width: 86%;
+  }
+  .features .container h2,
+  p,
+  li {
+    font-size: 16px;
+    width: 130%;
+  }
+  .features img {
+    margin-left: 15%;
+    width: 100%;
+  }
+  /* Power */
+  .Power {
+    width: 106%;
+  }
+  .Power-content {
+    width: 80%;
+  }
+  .Power h1,
+  p {
+    width: 90%;
+  }
+  .Power a {
+    width: 20%;
+  }
+  /* Solar-Kits */
+  .solar-kits {
+    width: 99.5%;
+  }
+  .solar-kits .container {
+    position: relative;
+    right: 10%;
+  }
+  /* Repair */
+  .Repair {
+    width: 106%;
+  }
+  .Repair p {
+    width: 100%;
+    font-size: 14px;
+  }
+  /* Energy */
+  .Energy {
+    width: 106%;
+  }
+  .Energy .container {
+    width: 80%;
+  }
+  /* Values */
+  .Values {
+    width: 99.5%;
+  }
+  .Values .container {
+    width: 85%;
+  }
+  /* Footer */
+  footer {
+    width: 106%;
+    width: 106%;
+  }
+
+  footer .search input {
+    /* display: none; */
+    max-width: 175px;
+  }
+  footer .search button {
+    max-width: 85px;
+    font-size: 13px;
+  }
 }
 
 /* Desktop screens */
 @media screen and (min-width: 1024px) {
+  * {
+    width: 158.77%;
+  }
+  /* Header */
+  .header {
+    width: 100%;
+  }
+  /* Hero */
+  .hero {
+    width: 100%;
+  }
+  /* Features */
+  .features {
+    width: 70%;
+  }
+  /* Power */
+  .Power {
+    width: 100%;
+  }
+  /* Solar-Kits */
+  .solar-kits {
+    width: 95.5%;
+  }
+  /* Repair */
+  .Repair {
+    width: 100%;
+  }
+  /* Energy */
+  .Energy {
+    width: 100%;
+  }
+  /* Values */
+  .Values {
+    width: 95.5%;
+  }
+  /* Footer */
+  footer {
+    width: 100%;
+    height: 100%;
+  }
 }
