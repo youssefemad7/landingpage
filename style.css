@@ -883,9 +883,6 @@ hr {
 
 /* Desktop screens */
 @media screen and (min-width: 1024px) {
-  * {
-    width: 158.77%;
-  }
   /* Header */
   .header {
     width: 100%;
