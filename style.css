@@ -670,7 +670,7 @@ hr {
   }
   /* Features */
   .features {
-    width: 80%;
+    width: 70%;
   }
   .features .container li,
   p,
@@ -678,8 +678,8 @@ hr {
     width: 70%;
   }
   .features .image-container {
-    margin-right: 150px;
-    width: 20%;
+    margin-left: 10%;
+    width: 30%;
     height: 30%;
   }
   /* Power */
@@ -744,6 +744,10 @@ hr {
   }
   .Values .container {
     width: 45%;
+  }
+  .firstvalue {
+    margin-left: 50%;
+    width: 100%;
   }
   .Values-kitcontent {
     width: 80%;
