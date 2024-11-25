@@ -654,6 +654,10 @@ hr {
   .header {
     width: 100%;
   }
+  .header .contact-info span {
+    position: relative;
+    left: 55%;
+  }
   /* Hero */
   .hero {
     width: 100%;
@@ -668,6 +672,7 @@ hr {
   .hero-buttons {
     width: 50%;
   }
+
   /* Features */
   .features {
     width: 70%;
@@ -697,6 +702,13 @@ hr {
   .solar-kits {
     width: 95.5%;
   }
+  .solar-kits .container {
+    width: 50%;
+    position: relative;
+    /* top: 50%; */
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+  }
 
   .solar-kits .kits {
     width: 100%;
@@ -710,9 +722,21 @@ hr {
   i {
     width: 100%;
   }
+  .solar-kits h2 {
+    position: relative;
+    left: 15%;
+  }
   /* Repair */
   .Repair {
     width: 100%;
+  }
+  .Repair h1 {
+    position: relative;
+    left: 15%;
+  }
+  .Repair p {
+    position: relative;
+    bottom: 5%;
   }
   /* Energy */
   .Energy {
@@ -723,6 +747,8 @@ hr {
   }
   .Energy-description {
     width: 60%;
+    position: relative;
+    top: 20%;
   }
   .Energy-kits {
     width: 30%;
@@ -749,6 +775,10 @@ hr {
   .firstvalue {
     margin-left: 50%;
     width: 100%;
+  }
+  .Values .firstvalue h2 {
+    position: relative;
+    left: 15%;
   }
   .Values-kitcontent {
     width: 80%;
@@ -788,6 +818,7 @@ hr {
 /* Larger screens (Tablet and above) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /* Header */
+
   .header {
     width: 106%;
     /* margin-right: 500%; */
